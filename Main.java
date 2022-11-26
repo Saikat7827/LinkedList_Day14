@@ -5,9 +5,12 @@ public class Main {
 
 		    LinkedList<Integer> linkedL = new LinkedList<>();
 
-		    linkedL.addLast(56);
-		    linkedL.addLast(30);
-		    linkedL.addLast(70);
+		    linkedL.addFirst(70);
+		    linkedL.addFirst(30);
+		    linkedL.addFirst(56);
+
+		    linkedL.display();
 		  }
+
 
 }
